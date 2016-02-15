@@ -1,0 +1,33 @@
+.ticketlist{
+	list-style-type: none;
+}
+li span{
+	text-transform: capitalize;
+	font-weight: bold;
+	
+}
+#chartContainer{
+	height: 300px; 
+	width: 75%;
+	float: right;
+}
+#warning {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 300px;
+	height: 100px;
+	opacity: 0.8;
+	z-index: 1000;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #000;
+	display: none;
+}
